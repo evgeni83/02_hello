@@ -1,1 +1,3 @@
-console.log("OK");
+const { currentDateTime } = require("./date");
+
+currentDateTime();
