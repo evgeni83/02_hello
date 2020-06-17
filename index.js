@@ -1,3 +1,3 @@
 const { currentDateTime } = require("./date");
 
-currentDateTime();
+console.log(`Today is ${currentDateTime().date}, the current time is ${currentDateTime().time}`);
